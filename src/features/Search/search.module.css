@@ -103,3 +103,12 @@
         z-index: -1;
     }
 }
+
+@media screen and (max-width: 1500px) {
+    .box {
+        display: none;
+    }
+    .cloud {
+        z-index: -1;
+    }
+}

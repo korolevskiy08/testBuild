@@ -33,11 +33,11 @@ export const Header: FC = () => {
               <Viber className={style.contactMessenger} />
             </div>
           </div>
-          <div className={style.call}>
-            <Button className={style.button} onclick={() => {}}>
-              Заказать звонок
-            </Button>
-          </div>
+        </div>
+        <div className={style.call}>
+          <Button className={style.button} onclick={() => {}}>
+            Заказать звонок
+          </Button>
         </div>
       </div>
     </div>

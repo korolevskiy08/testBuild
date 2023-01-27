@@ -109,3 +109,21 @@
         color: white;
     }
 }
+
+@media screen and (max-width: 1360px) {
+    .header {
+        justify-content: space-between;
+    }
+    .workMode {
+        padding: 0;
+    }
+    .orderLayout {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .orderLayout {
+        display: none;
+    }
+}

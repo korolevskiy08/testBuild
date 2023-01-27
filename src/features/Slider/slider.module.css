@@ -242,3 +242,52 @@
         top: 2080px;
     }
 }
+
+@media screen and (max-width: 1270px){
+    .sliderItem {
+        width: 290px;
+    }
+    .sliderItemContent {
+        width: 260px;
+    }
+    .rectangle {
+        width: 120px;
+        height: 210px;
+        padding-right: 20px;
+    }
+    .itemTitle {
+        font-size: 20px;
+    }
+    .children {
+        font-size: 13px;
+    }
+    .beforeDiscount {
+        font-size: 15px;
+    }
+    .price {
+        font-size: 20px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .buttonBlock {
+        width: 240px;
+    }
+    .more {
+        width: 110px;
+        font-size: 13px;
+        padding: 0;
+    }
+    .toOrder {
+        width: 110px;
+        font-size: 13px;
+    }
+    .arrowLeftBlock {
+        left: 25px;
+        top: 2080px;
+    }
+    .arrowRightBlock {
+        right: 25px;
+        top: 2080px;
+    }
+}

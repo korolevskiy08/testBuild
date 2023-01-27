@@ -122,3 +122,30 @@
         margin-left: 100px;
     }
 }
+
+@media screen and (max-width: 1430px){
+    .scroll {
+        left: 125px;
+    }
+    .scrollItem {
+        left: 125px;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .scroll {
+        left: 105px;
+    }
+    .scrollItem {
+        left: 105px;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .scroll {
+        left: 85px;
+    }
+    .scrollItem {
+        left: 85px;
+    }
+}
