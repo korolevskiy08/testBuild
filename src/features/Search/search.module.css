@@ -92,3 +92,14 @@
 
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1500px) {
+    .key {
+        top: 2380px;
+        z-index: -1;
+    }
+    .bigCloud {
+        top: 2843px;
+        z-index: -1;
+    }
+}

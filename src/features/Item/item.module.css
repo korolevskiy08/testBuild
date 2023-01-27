@@ -102,3 +102,23 @@
 
     color: #319F1C;
 }
+
+@media screen and (max-width: 1500px){
+    .descriptionBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+    .scroll {
+        left: 145px;
+    }
+    .scrollItem {
+        left: 145px;
+    }
+    .info {
+        display: flex;
+        padding-top: 50px;
+    }
+    .priceBlock {
+        margin-left: 100px;
+    }
+}

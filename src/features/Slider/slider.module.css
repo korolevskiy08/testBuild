@@ -185,3 +185,60 @@
 
     color: white;
 }
+
+@media screen and (max-width: 1500px){
+    .sliderBlock{
+        padding-top: 430px;
+    }
+    .sliderTitle {
+        text-align: center;
+    }
+    .sliderItem {
+        width: 320px;
+        padding-top: 30px;
+    }
+    .sliderItemContent {
+        width: 310px;
+        padding-bottom: 10px;
+    }
+    .rectangle {
+        width: 120px;
+        height: 210px;
+        padding-right: 20px;
+    }
+    .itemTitle {
+        font-size: 20px;
+    }
+    .children {
+        font-size: 15px;
+    }
+    .beforeDiscount {
+        font-size: 15px;
+    }
+    .price {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .buttonBlock {
+        width: 280px;
+    }
+    .more {
+        width: 110px;
+        font-size: 13px;
+        padding: 0;
+    }
+    .toOrder {
+        width: 110px;
+        font-size: 13px;
+    }
+    .arrowLeftBlock {
+        left: 25px;
+        top: 2080px;
+    }
+    .arrowRightBlock {
+        right: 25px;
+        top: 2080px;
+    }
+}

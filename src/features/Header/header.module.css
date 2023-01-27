@@ -69,3 +69,43 @@
 .call {
     padding-left: 30px;
 }
+
+@media screen and (max-width: 1800px) {
+    .workText {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .orderLayout {
+        padding: 0 30px 0 30px;
+    }
+    .layoutIcon {
+        width: 25px;
+        height: 25px;
+    }
+    .textOrderLayout {
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .phoneIcon {
+        border: 1px solid #319F1C;
+        box-shadow: 0px 0px 7px #319F1C;
+        padding: 5px;
+    }
+    .phoneNumber {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .button {
+        width: 128px;
+        height: 35px;
+
+        background: #319F1C;
+        box-shadow: 0px 4px 5px #319F1C;
+        border-radius: 6px;
+
+        font-size: 12px;
+
+        color: white;
+    }
+}

@@ -40,3 +40,15 @@
     width: 604px;
     height: 224px;
 }
+
+@media screen and (max-width: 1500px){
+    .descriptionLayoutBlock {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 400px;
+    }
+    .detailsTitle {
+        padding-top: 30px;
+        text-align: center;
+    }
+}

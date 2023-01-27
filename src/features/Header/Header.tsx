@@ -14,7 +14,7 @@ export const Header: FC = () => {
   return (
     <div className="container">
       <div className={style.header}>
-        <Logo />
+        <Logo className={style.logo} />
         <div className={style.workMode}>
           <p className={style.workText}>Пн-Сб: c 10:00 до 20:00</p>
           <p className={style.workText}>Выходной: воскресенье</p>
@@ -34,7 +34,9 @@ export const Header: FC = () => {
             </div>
           </div>
           <div className={style.call}>
-            <Button onclick={() => {}}>Заказать звонок</Button>
+            <Button className={style.button} onclick={() => {}}>
+              Заказать звонок
+            </Button>
           </div>
         </div>
       </div>
