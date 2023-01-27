@@ -1,0 +1,84 @@
+.footer {
+    width: 100%;
+    height: 180px;
+
+    padding: 50px 0 72px 0;
+
+    background: #363130;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+
+    height: 180px;
+}
+
+.buttonCall {
+    cursor: pointer;
+
+    width: 238px;
+    height: 64px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+
+    color: white;
+}
+
+.logoBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding-bottom: 52px;
+}
+
+.navList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: space-between;
+    column-gap: 190px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.navItem {
+    cursor: pointer;
+
+    color: white;
+}
+
+.titleSocial {
+    width: 237px;
+    height: 42px;
+
+    font-size: 14px;
+    line-height: 21px;
+
+    color: white;
+
+    padding-bottom: 16px;
+}
+
+.social {
+    display: flex;
+
+    padding-bottom: 15px;
+}
+
+.socialItem {
+    cursor: pointer;
+
+    padding-right: 16px;
+}
+
+.promotion {
+    font-size: 14px;
+    line-height: 21px;
+
+    color: white;
+}

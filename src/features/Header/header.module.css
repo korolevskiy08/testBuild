@@ -1,0 +1,71 @@
+.header {
+    padding: 26px 0 30px 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.workText {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.workMode {
+    padding-left: 100px;
+}
+
+.orderLayout {
+    display: flex;
+    align-items: center;
+    padding: 0 100px 0 76px;
+}
+
+.layoutIcon {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+
+    border: 5px solid #E4E4E4;
+
+    margin-right: 15px;
+}
+
+.textOrderLayout {
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.phoneIcon {
+    border-radius: 50%;
+
+    border: 1.5px solid #319F1C;
+    box-shadow: 0px 0px 12px #319F1C;
+    padding: 10px;
+    margin-right: 8px;
+}
+
+.phoneNumber {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    padding-bottom: 6px;
+}
+
+.contactMessenger {
+    width: 25px;
+    height: 25px;
+    padding-right: 25px;
+}
+
+.contactsMessengers {
+    text-align: center;
+}
+
+.call {
+    padding-left: 30px;
+}

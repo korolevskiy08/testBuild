@@ -1,0 +1,94 @@
+.search {
+    display: flex;
+}
+
+.cloud {
+    position: absolute;
+
+    width: 830px;
+    height: 285px;
+
+    background-image: url("../../assets/images/cloud.png");
+
+    background-repeat: no-repeat;
+}
+
+.box {
+    position: relative;
+    top: 174px;
+    z-index: -1;
+
+    width: 808px;
+    height: 559px;
+
+    background-image: url("../../assets/images/box.png");
+
+    background-repeat: no-repeat;
+}
+
+.searchTitle {
+    margin: 0;
+
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 52px;
+
+    padding: 147px 0 20px 0;
+}
+
+.searchText {
+    line-height: 21px;
+    padding-bottom: 47px;
+}
+
+.input {
+
+    width: 507px;
+    height: 45px;
+
+    margin-bottom: 20px;
+}
+
+.question {
+    width: 507px;
+    height: 98px;
+    margin: 0;
+}
+
+.button {
+    width: 238px;
+    height: 45px;
+    margin: 22px 0 139px 0;
+
+    background: #319F1C;
+    box-shadow: 0px 4px 8px #64BC45;
+    border-radius: 3px;
+
+    color: white;
+}
+
+.key {
+    position: absolute;
+    top: 2325px;
+    right: 0;
+
+    width: 250px;
+    height: 277px;
+
+    background-image: url("../../assets/images/key.png");
+
+    background-repeat: no-repeat;
+}
+
+.bigCloud {
+    width: 720px;
+    height: 277px;
+
+    position: absolute;
+    right: 0;
+    top: 2490px;
+
+    background-image: url("../../assets/images/cloudBig.png");
+
+    background-repeat: no-repeat;
+}
